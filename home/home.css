@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #312238;
+    overflow: hidden;
+  }
+
+  .caixas {
+        display: flex; /* Isso permite que os elementos dentro da div sejam organizados em linha */
+        justify-content: space-between; /* Isso distribui os elementos horizontalmente com espaço entre eles */
+        height: 60vh;
+        padding: 0 20px; /* Adicionando espaço entre as caixas */
+        
+  }
+
+  .caixa {
+    flex-basis: calc(45% - 20px); /* Isso faz com que cada caixa ocupe metade da largura da div caixas, menos o espaço entre elas */
+    background-color: #f0f0f0; /* Cor de fundo das caixas */
+    border: 8px solid #ccc; /* Adicionando uma borda às caixas para separá-las visualmente */
+    box-sizing: border-box; /* Isso garante que a largura da caixa inclua a espessura da borda */
+    border-radius: 26px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    max-width: 70vw;
+    max-height: 100vh;
+    margin: 0 auto;
+    padding: 3%;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    height: 4vh;
+    border-radius: 20px;
+    border: 2px solid #ccc;
+    outline: none;
+}
+
+
+.custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para a imagem dentro do botão */
+  .custom-button img {
+    width: 20px; /* Largura da imagem */
+    height: 20px; /* Altura da imagem */
+    margin-right: 5px; /* Espaçamento à direita da imagem */
+  }

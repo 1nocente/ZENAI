@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #312238;
+    overflow: hidden;
+  }
+
+
+  
+
+  
+  input[type="text"],
+  input[type="password"] {
+    width: calc(20% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    width: 10%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: #312238;
+    cursor: pointer;
+  }
+  
+  #logo{
+      padding: 16px;
+  }
